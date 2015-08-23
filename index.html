@@ -1,1 +1,143 @@
 
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Путешествие в город Седона - Америка, которую вы еще не знаете</title>
+  </head>
+  <body>
+    <header class="main-header">
+  <div class="container clearfix">
+    <nav class="main-navigation">
+      <ul>
+        <li class="active">
+          <a href="#">Информация</a>
+        </li>
+        <li>
+          <a href="#">Фото и видео</a>
+        </li>
+        <li>
+          <a href="#">Карта штата</a>
+        </li>
+        <li>
+          <a href="#">Гостиницы</a>
+        </li>
+      </ul>
+    </nav>
+
+  </div>
+</header>
+    <div class="container">
+      <div class="logo">
+        <img src="http://placehold.it/1200x600" width="1200" height="600" alt="Добро пожаловать в город Седона">
+      </div>
+
+    <section class="features-block clearfix">
+      <div class="features-item white-background">
+          <div class="features-title">СЕДОНА &mdash; НЕБОЛЬШОЙ ГОРОДОК В АРИЗОНЕ, ЗАСЛУЖИВАЮЩИЙ БОЛЬШЕГО!‎</div>
+          <p>РАССМОТРИМ 5 ПРИЧИН, ПО КОТОРЫМ СЕДОНА КРУЧЕ, ЧЕМ ГРАНД КАНЬОН</p>
+
+      </div>
+      <div class="features-item blue-background">
+          <div class="features-title">НАСТОЯЩИЙ ГОРОДОК</div>
+            <p class="feature number">- №1 -</p>
+            <p>СЕДОНА НЕ АТТРАКЦИОН ДЛЯ ТУРИСТОВ, ТАМ ТЕЧЕТ СВОЯ ЖИЗНЬ</p>
+            <img src="http://placehold.it/900x300" width="900" height="300" alt="Open Range Place">
+      </div>
+      <div class="features-item white-background">
+          <img src="http://placehold.it/50x50" width="50" height="50" alt="House Icon">
+          <div class="features-title"><H2>ЖИЛЬЕ</H2></div>
+          <p>РЕКОМЕНДУЕМ ПОЖИТЬ В НАСТОЯЩЕМ МОТЕЛЕ, ВСЕ КАК В КИНО!</p>
+
+      </div>
+      <div class="features-item white-background">
+          <img src="http://placehold.it/50x50" width="50" height="50" alt="Burger Icon">
+          <div class="features-title"><H2>ЕДА</H2></div>
+          <p>ВСЕГДА ЗАКАЗЫВАЙТЕ ФИРМЕННЫЙ БУРГЕР, ВЫ НЕ РАЗОЧАРУЕТЕСЬ!</p>
+
+      </div>
+      <div class="features-item white-background">
+          <img src="http://placehold.it/50x50" width="50" height="50" alt="Souvenirs Icon">
+          <div class="features-title"><H2>СУВЕНИРЫ</H2></div>
+          <p>НЕ ТОЛЬКО КИТАЙСКОГО, НО И МЕСТНОГО ПРОИЗВОДСТВА!</p>
+
+      </div>
+      <div class="features-item blue-background">
+          <div class="features-title"><H2>ТАМ ЕСТЬ МОСТ ДЬЯВОЛА</H2></div>
+            <img src="http://placehold.it/900x300" width="900" height="300" alt="Devil Bridge">
+            <p class="feature number">- №2 -</p>
+            <p>ДА, ПО НЕМУ МОЖНО ПРОЙТИСЬ!<BR>ЕСЛИ, КОНЕЧНО, ВЫ ОСМЕЛИТЕСЬ</p>
+
+      </div>
+      <div class="features-item gray-background">
+          <div class="features-title">НЕБОЛЬШАЯ ПЛОЩАДЬ</div>
+          <p class="feature number">- №3 -</p>
+          <p>ВСЕ ДОСТОПРИМЕЧАТЕЛЬНОСТИ НАХОДЯТСЯ ОЧЕНЬ БЛИЗКО</p>
+      </div>
+      <div class="features-item gray-background">
+          <div class="features-title">КРАСИВАЯ ДОРОГА</div>
+          <p class="feature number">- №4 -</p>
+          <p>ЕХАТЬ В СЕДОНУ ИЗ ЛАС-ВЕГАСА СОВСЕМ НЕ СКУЧНО!</p>
+      </div>
+      <div class="features-item gray-background">
+          <div class="features-title">МАЛО ТУРИСТОВ</div>
+          <p class="feature number">- №5 -</p>
+          <p>БОЛЬШИНСТВО ЕДЕТ В ГРАНД-КАНЬОН И ТОЛПИТСЯ ТАМ</p>
+      </div>
+      <div class="features-item white-background">
+          <div class="features-title">ЗАИНТЕРЕСОВАЛИСЬ?‎</div>
+          <p>УКАЖИТЕ ПРЕДПОЛАГАЕМЫЕ ДАТЫ ПОЕЗДКИ<BR>
+          И МЫ ПОКАЖЕМ ВАМ ЛУЧШИЕ ПРЕДЛОЖЕНИЯ ГОСТИНИЦ В СЕДОНЕ</p>
+
+      </div>
+    </section>
+    <section class="popup-element">
+          <div class="select-hotel-form">
+            <h2 class="select-hotel-title">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</h2>
+
+            <form action="/echo" method="post">
+              <label>ДАТА ЗАЕЗДА:
+              <input class="calendar" type="date" name="date-checkin" value="2014-04-24" placeholder="24 ИЮЛЯ 2014">
+              </label><br>
+              <label>ДАТА ВЫЕЗДА:
+              <input class="calendar" type="date" name="date-checkout" value="2014-07-04" placeholder="4 ИЮЛЯ 2014">
+              </label><br>
+              <label>ВЗРОСЛЫЕ:
+                <button type="button" name="button-decrement-adults" class="btn-plus-minus">-</button>
+                <input type="text" name="adults" value="2" placeholder="">
+                <button type="button" name="button-increment-adults" class="btn-plus-minus">+</button>
+
+              </label>
+              <label>ДЕТИ:
+              <button type="button" name="button-decrement-children" class="btn-plus-minus">-</button>
+              <input type="text" name="children" value="0" placeholder="">
+              <button type="button" name="button-increment-children" class="btn-increment">+</button>
+              </label><br>
+              <button type="submit" class="btn">НАЙТИ</button>
+            </form>
+          </div>
+      </section>
+      <section class="map block">
+        <div class="map element">
+          <img src="http://placehold.it/1200x600" width="1200" height="600">
+        </div>
+
+      </section>
+  </div>
+    <footer class="main-footer">
+      <div class="container clearfix">
+        <div class="hashtag">#VISITSEDONA</div>
+        </section>
+        <section class="footer-social">
+          <a href="#" class="social-btn social-btn-twitter">Twitter</a>
+          <a href="#" class="social-btn social-btn-fb">Facebook</a>
+          <a href="#" class="social-btn social-btn-youtube">Youtube</a>
+        </section>
+        <section class="footer-copyright">
+
+          <a href="#" class="btn btn-htmlacademy">htmlacademy.ru</a>
+        </section>
+      </div>
+    </footer>
+  </body>
+</html>
